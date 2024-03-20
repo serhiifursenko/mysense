@@ -1,1 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MySense</title>
+</head>
+<body>
+   <header class="header">
+        <div class="container">
+            <menu class="header__menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/svg/mysense-logo.svg" alt="">
+                    </a>
+                </div>
+                <nav class="header__navigation">
+                    <div class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="mobile-menu">
+                        <span class="mobile-menu__close"></span>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item"><a href="#">Наші психотерапевти</a></li>
+                            <li class="mobile-menu__item"><a href="#">Вабінари</a></li>
+                            <li class="mobile-menu__item"><a href="#">Статті</a></li>
+                            <li class="mobile-menu__item"><a href="#">Психологам</a></li>
+                        </ul>
+                    </div>
+                    
+                    <ul class="navigation">
+                        <li class="navigation__item"><a href="#">Наші психотерапевти</a></li>
+                        <li class="navigation__item"><a href="#">Вабінари</a></li>
+                        <li class="navigation__item"><a href="#">Статті</a></li>
+                        <li class="navigation__item"><a href="#">Психологам</a></li>
+                    </ul>
+                </nav>
+                <div class="header__useraction">
+                    <a href="#">Відділ підтримки</a>
+                    <a href="#">Вхід</a>
+                    <div class="lang-switcher ">
+                        <span class="lang-header filter__select select__current">UA</span>
+                        <ul class="lang-switcher__list filter__select__list">
+                            <li class="lang-swicher__item filter__select__item">UA</li>
+                            <li class="lang-swicher__item filter__select__item">RU</li>
+                            <li class="lang-swicher__item filter__select__item">EN</li>
+                        </ul>
 
+                    </div>
+                    
+                </div>
+            </menu>
+
+        </div>
+   </header>
+   <section class="single-psiholog">
+        <div class="container">
+            <div class="psiholog">
+                <div class="psiholog__basic">
+                    <div class="psiholog__basic__left">
+                        <div class="psiholog__basic__info">
+                            <div class="psiholog__basic__images">
+                                <img src="images/picture/avatar-4.png" alt="">
+                            </div>
+                            <div class="psiholog__basic__description">
+                                <h3 class="psiholog__name">Борисенко Андрій</h3>
+                                <span class="psiholog__status"><i></i>Перевіренний фахівець</span>
+                                <ul class="psiholog__format">
+                                    <li><i>
+                                        <img src="images//svg/ochno.svg" alt="">
+                                    </i>Онлайн</li>
+                                    та
+                                    <li><i>
+                                        <img src="images/svg/onlain.svg" alt="">
+                                    </i>Очно</li>
+                                </ul>
+                                <ul class="psiholog__speciality">
+                                    <li>Психолог</li>
+                                    <li>Сімейний психолог</li>
+                                    <li>Гештальт-терапевт</li>
+                                    <li>Гештальт-терапевт</li>
+                                </ul>
+                                <div class="psiholog__basic__price">
+                                    <div class="price-individual">
+                                        <span>1200 ₴</span>
+                                        <span>Індивідуальна 50 хв.</span>
+                                    </div>
+                                    <div class="price-group">
+                                        <span>2000 ₴</span>
+                                        <span>Парна 90 хв.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="psiholog__basic__location">
+                            <div class="location-item">
+                                <span>Місто:</span>
+                                <span>Київ</span>
+                            </div>
+                            <div class="location-item">
+                                <span>Місце прийому:</span>
+                                <span>Вул. Огієнка 33</span>
+                            </div>
+                            <div class="location-item">
+                                <span>Мова спілкування:</span>
+                                <span>Українська, Російська</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="psiholog__basic__right">
+                        <video src="images/picture/video.png"></video>
+                        <div class="psiholog__basic__btn">
+                            <a href="#">Записатися на сесію</a>
+                            <a href="#">Чат з терапевтом</a>
+                            <a href="#">Домовитись про знайомство 15 хв</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="psiholog__contant">
+                    <div class="psiholog__experience">
+                        <div class="psiholog__experience__item">
+                            <span>5+</span>
+                            <span>Років практики</span>
+                        </div>
+                        <div class="psiholog__experience__item">
+                            <span>220+</span>
+                            <span>Проведено сесій</span>
+                        </div>
+                        <div class="psiholog__experience__item">
+                            <span>205</span>
+                            <span>Відгуків</span>
+                        </div>
+                    </div>
+                    <div class="psiholog__about psiholog__item">
+                        <div class="psiholog__item__tabs">
+                            <a herf="#about-tab-1" class="tabs-item tab-active">Про мене</a>
+                            <a herf="#about-tab-2" class="tabs-item">Як я працюю</a>
+                            <a herf="#about-tab-3" class="tabs-item">Мої цінності</a>
+                        </div>
+                        <div class="psiholog__item__body">
+                            <div id="about-tab-1" class="psiholog__item__text">
+                                <p>Мене звати Борисенко Андрій. Я сертифікований психотерапевт, практикую з 2018 року. Працюю у гештальт підході з чоловіками, жінками та підлітками...</p> 
+                                <p>Я маю спеціалізації по роботі з парами та сім’ями, тому можу бути корисним у наданні психотерапевтичної допомоги подружжям, парам, які починають стосунки, у дитячо-батьківських відносинах, міжособистісних стосунках між членами сім’ї та колегами. Моя робота полягає у тому, </p>    
+                            </div>
+                            <div id="about-tab-2" class="psiholog__item__text">
+                                <p>Мене звати Борисенко Андрій. Я сертифікований психотерапевт, практикую з 2018 року. Працюю у гештальт підході з чоловіками, жінками та підлітками...</p> 
+                                <p>Я маю спеціалізації по роботі з парами та сім’ями, тому можу бути корисним у наданні психотерапевтичної допомоги подружжям, парам, які починають стосунки, у дитячо-батьківських відносинах, міжособистісних стосунках між членами сім’ї та колегами. Моя робота полягає у тому, </p>    
+                            </div>
+                            <div id="about-tab-3" class="psiholog__item__text">
+                                <p>Мене звати Борисенко Андрій. Я сертифікований психотерапевт, практикую з 2018 року. Працюю у гештальт підході з чоловіками, жінками та підлітками...</p> 
+                                <p>Я маю спеціалізації по роботі з парами та сім’ями, тому можу бути корисним у наданні психотерапевтичної допомоги подружжям, парам, які починають стосунки, у дитячо-батьківських відносинах, міжособистісних стосунках між членами сім’ї та колегами. Моя робота полягає у тому, </p>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="psiholog__therapy psiholog__item">
+                        <div class="psiholog__item__tabs">
+                            <a herf="#therapy-tab-1" class="tabs-item tab-active">Індивідуальна терапія</a>
+                            <a herf="#therapy-tab-2" class="tabs-item">Сімейна терапія</a>
+                            <a herf="#therapy-tab-3" class="tabs-item">Дитяча терапія</a>
+                        </div>
+                        <div class="psiholog__item__body">
+                            <div id="therapy-tab-1" class="psiholog__item__text">
+                                <label for="">
+                                    Я працюю
+                                    <ul>
+                                        <li>Проблеми у спілкуванні</li>
+                                        <li>Еміграція</li>
+                                        <li>Проблеми із мотивацією та самореалізацією</li>
+                                        <li>Стосунки з родичами/друзями</li>
+                                        <li>Почуття самотності</li>
+                                        <li>Складно прийняти важливе рішення</li>
+                                        <li>Адаптація до нових умов життя</li>
+                                        <li>Проблеми у відносинах з дітьми</li>
+                                        <li>Зрада</li>
+                                        <li>Завершення стосунків</li>
+                                    </ul>
+                                </label>
+                               <label for="">
+                                Я не працюю
+                                <ul>
+                                    <li>Сексуальні стосунки</li>
+                                    <li>Хімічні залежності</li>
+                                    <li>Спроби самогубства</li>
+                                    <li>Ставлення до їжі</li>
+                                </ul>
+                               </label>
+                                
+                            </div>
+                            <div id="therapy-tab-2" class="psiholog__item__text">
+                                <label for="">
+                                    Я працюю
+                                    <ul>
+                                        <li>Проблеми у спілкуванні</li>
+                                        <li>Еміграція</li>
+                                        <li>Проблеми із мотивацією та самореалізацією</li>
+                                        <li>Стосунки з родичами/друзями</li>
+                                        <li>Почуття самотності</li>
+                                        <li>Складно прийняти важливе рішення</li>
+                                        <li>Адаптація до нових умов життя</li>
+                                        <li>Проблеми у відносинах з дітьми</li>
+                                        <li>Зрада</li>
+                                        <li>Завершення стосунків</li>
+                                    </ul>
+                                </label>
+                               <label for="">
+                                Я не працюю
+                                <ul>
+                                    <li>Сексуальні стосунки</li>
+                                    <li>Хімічні залежності</li>
+                                    <li>Спроби самогубства</li>
+                                    <li>Ставлення до їжі</li>
+                                </ul>
+                               </label>
+                                
+                            </div>
+                            <div id="therapy-tab-3" class="psiholog__item__text">
+                                <label for="">
+                                    Я працюю
+                                    <ul>
+                                        <li>Проблеми у спілкуванні</li>
+                                        <li>Еміграція</li>
+                                        <li>Проблеми із мотивацією та самореалізацією</li>
+                                        <li>Стосунки з родичами/друзями</li>
+                                        <li>Почуття самотності</li>
+                                        <li>Складно прийняти важливе рішення</li>
+                                        <li>Адаптація до нових умов життя</li>
+                                        <li>Проблеми у відносинах з дітьми</li>
+                                        <li>Зрада</li>
+                                        <li>Завершення стосунків</li>
+                                    </ul>
+                                </label>
+                               <label for="">
+                                Я не працюю
+                                <ul>
+                                    <li>Сексуальні стосунки</li>
+                                    <li>Хімічні залежності</li>
+                                    <li>Спроби самогубства</li>
+                                    <li>Ставлення до їжі</li>
+                                </ul>
+                               </label>
+                                
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="psiholog__education psiholog__item">
+                        <div class="psiholog__item__tabs">
+                            <a herf="#education-tab-1" class="tabs-item tab-active">Вища та професійна освіта</a>
+                            <a herf="#education-tab-3" class="tabs-item">Спеціалізації</a>
+                            <a herf="#education-tab-3" class="tabs-item">Інший досвід</a>
+                        </div>
+                        <div class="psiholog__item__body">
+                            <div id="education-tab-1" class="psiholog__item__text">
+                                <div class="psiholog__item__type">
+                                    <span>2017</span>
+                                    <span>Національний педагогічний університет імені М.П.Драгоманова Психологія</span>
+                                    <span>Перевірено</span>
+                                </div>
+                                <div class="psiholog__item__type">
+                                    <span>2017</span>
+                                    <span>Національний педагогічний університет імені М.П.Драгоманова Психологія</span>
+                                    <span>Перевірено</span>
+                                </div>
+                            </div>
+                            <div id="education-tab-2" class="psiholog__item__text">
+                                <div class="psiholog__item__type">
+                                    <span>2017</span>
+                                    <span>Національний педагогічний університет імені М.П.Драгоманова Психологія</span>
+                                    <span>Перевірено</span>
+                                </div>
+                                <div class="psiholog__item__type">
+                                    <span>2017</span>
+                                    <span>Національний педагогічний університет імені М.П.Драгоманова Психологія</span>
+                                    <span>Перевірено</span>
+                                </div>
+                            </div>
+                            <div id="education-tab-3" class="psiholog__item__text">
+                                <div class="psiholog__item__type">
+                                    <span>2017</span>
+                                    <span>Національний педагогічний університет імені М.П.Драгоманова Психологія</span>
+                                    <span>Перевірено</span>
+                                </div>
+                                <div class="psiholog__item__type">
+                                    <span>2017</span>
+                                    <span>Національний педагогічний університет імені М.П.Драгоманова Психологія</span>
+                                    <span>Перевірено</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="psiholog__diplom-slider psiholog__item">
+                        <h3 class="item-title">Дипломи</h3>
+                        <div class="diplom-slider__wrapper">    
+                            <ul class="diplom-slider__list">
+                                <li class="diplom-slider__item">
+                                    <img src="images/diplom1.png" alt="">
+                                </li>
+                                <li class="diplom-slider__item">
+                                    <img src="images/diplom2.png" alt="">
+                                </li>
+                                <li class="diplom-slider__item">
+                                    <img src="images/diplom3.png" alt="">
+                                </li>
+                                
+                                <li class="diplom-slider__item">
+                                    <img src="images/diplom4.png" alt="">
+                                </li>
+                               
+                                <li class="diplom-slider__item">
+                                    <img src="images/diplom5.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+   </section>
+   <footer class="footer">
+    <div class="container">
+        <div class="footer__navigation">
+            <nav class="footer__menu">
+                <ul class="footer__menu__list">
+                    <li class="footer__menu__item"><a href="">Наші психотерапевти</a></li>
+                    <li class="footer__menu__item"><a href="">Про нас</a></li>
+                    <li class="footer__menu__item"><a href="">Статті</a></li>
+                    <li class="footer__menu__item"><a href="">Психологам</a></li>
+                </ul>
+            </nav>
+            <div class="footer__contact">
+                <ul class="footer__contact__list">
+                    <li class="footer__contact__item">care@mysense.care</li>
+                    <li class="footer__contact__item">
+                        <a href="">
+                            <img src="images/svg/Instagram.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/svg/Teleg.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/svg/Facebook.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer__contact__item">
+                        <a href="">
+                            Відділ підтримки
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <ul class="footer__bottom__contract">
+                <li class="footer__bottom__item">
+                    <a href="">Договір оферта</a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a href="">Політика конфіденційності</a>
+                </li>
+            </ul>
+            <ul class="footer__bottom__payment">
+                <li><img src="images/svg/Vctor.svg" alt=""></li>
+                <li><img src="images/svg/Vecor.svg" alt=""></li>
+                <li><img src="images/svg/Vecto.svg" alt=""></li>
+                <li><img src="images/svg/Vector.svg" alt=""></li>
+            </ul>
+            <span class="footer__bottom__copyright">© 2023 Mysense. всі права захищені</span>
+        </div>
+    </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
